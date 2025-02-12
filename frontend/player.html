@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set List Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Set List Player</h1>
+
+        <div>
+            <select id="setListDropdown"></select>
+            <button onclick="loadSetList()">Load Set List</button>
+        </div>
+
+        <h3>Set List</h3>
+        <ul id="setList"></ul>
+
+        <button onclick="stopScript()" class="stop-button">Stop</button>
+
+        <button onclick="window.location.href='/'">Go to Creator</button>
+    </div>
+
+    <script src="player.js"></script>
+</body>
+</html>
+
